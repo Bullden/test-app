@@ -1,0 +1,16 @@
+.element-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+}
+.element-wrap :nth-child(n) {
+    flex: 1;
+}
+.input-wrap {
+    max-width: 40px;
+}
+.form-wrap, .input-wrap, .button-wrap{
+    margin-left: 10px; 
+}

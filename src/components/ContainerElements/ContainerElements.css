@@ -1,0 +1,19 @@
+.wrap-buttons {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.wrap-buttons-save-close {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.wrap-buttons-save-close :nth-child(2) {
+    margin-left: 20px;
+}
+.wrap-button-add {
+    display: flex;
+    justify-content: flex-start;
+   
+}

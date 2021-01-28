@@ -1,0 +1,26 @@
+.header-modal-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: silver;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+.wrap-modal {
+    padding: 50px;
+    min-width: 400px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrap-header-modal-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text {
+    font-size: 20px;
+}
