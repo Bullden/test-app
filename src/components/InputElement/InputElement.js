@@ -19,9 +19,9 @@ const InputElement = ({ value, data, onDelete, changeValue }) => {
           value={value}
           onChange={(event) => changeValue(event.target.value, data)}
         >
-          <MenuItem value={10}>Ten</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
+          <MenuItem value={4}>Quadro</MenuItem>
+          <MenuItem value={12}>Tripple</MenuItem>
+          <MenuItem value={22}>Twin</MenuItem>
         </Select>
       </FormControl>
 
